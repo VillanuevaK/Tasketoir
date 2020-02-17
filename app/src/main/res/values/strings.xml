@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Taskeitor</string>
+    <string name="tab_text_1">Organizador</string>
+    <string name="tab_text_2">Puntos De Interés</string>
+    <string name="tab_text_3">Tareas</string>
+    <string name="tab_text_4">Notas</string>
+</resources>
