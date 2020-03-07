@@ -16,14 +16,15 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        Button primero = findViewById(R.id.agregarTarea);
-        Button segundo = findViewById(R.id.irAlMapa);
-        Button tercero = findViewById(R.id.irAPendientes);
-        Button cuarto = findViewById(R.id.irATienda);
-        Button quinto = findViewById(R.id.irAAbout);
-        Button sexto = findViewById(R.id.irATiempo);
+        Button botonAgregar = findViewById(R.id.agregarTarea);
+        Button botonMapa = findViewById(R.id.irAlMapa);
+        Button botonTareas = findViewById(R.id.irAPendientes);
+        Button botonTienda = findViewById(R.id.irATienda);
+        Button botonAbout = findViewById(R.id.irAAbout);
+        Button botonTiempo = findViewById(R.id.irATiempo);
+        Button botonNotas = findViewById(R.id.irANotas);
 
-        primero.setOnClickListener(new View.OnClickListener() {
+        botonAgregar.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 openAgregarTarea();
@@ -32,39 +33,46 @@ public class MainActivity extends AppCompatActivity {
 
         });
 
-        segundo.setOnClickListener(new View.OnClickListener() {
+        botonMapa.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 openMap();
             }
         });
 
-        tercero.setOnClickListener(new View.OnClickListener() {
+        botonTareas.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 openPendientes();
             }
         });
 
-        cuarto.setOnClickListener(new View.OnClickListener() {
+        botonTienda.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 openTienda();
             }
         });
 
-        quinto.setOnClickListener(new View.OnClickListener() {
+        botonAbout.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 openAbout();
             }
         });
 
-        sexto.setOnClickListener(new View.OnClickListener() {
+        botonTiempo.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
 
                 openTiempo();
+            }
+        });
+
+        botonNotas.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                openNotas();
             }
         });
     }
@@ -97,6 +105,11 @@ public class MainActivity extends AppCompatActivity {
     public void openTiempo(){
         Intent abrir6 = new Intent(this, tiempoLibre.class);
         startActivity(abrir6);
+    }
+
+    public void openNotas(){
+        Intent abrir7 = new Intent(this, notas.class);
+        startActivity(abrir7);
     }
 }
 

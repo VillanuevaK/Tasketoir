@@ -1,16 +1,4 @@
 <resources>
-    <string name="app_name">Taskeitor1</string>
-    <string name="principal">Bienvenido</string>
-    <string name="tarea">Agregar tarea</string>
-    <string name="mapa">Puntos de interés</string>
-    <string name="tareas">Tareas pendientes</string>
-    <string name="tienda">Tienda</string>
-    <string name="about">Acerca de los \n desarrolladores</string>
-    <string name="pista">Nombre de la tarea</string>
-    <string name="agregarFecha">+ Agregar \n fecha</string>
-    <string name="tiempo">¿Cuánto tiempo piensas dedicarle?</string>
-    <string name="subdividir">Subdividir en tareas más pequeñas</string>
-    <string name="listo">Agregar</string>
-    <string name="tiempol">Configurar tiempo libre</string>
+    <string name="app_name">Uno</string>
+    <string name="textito">MI PAAAAAAPÁ NO JUGABA A LA PELOTA CONMIGO</string>
 </resources>
-
