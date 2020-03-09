@@ -4,4 +4,10 @@
     <string name="tab_text_2">Puntos De Interés</string>
     <string name="tab_text_3">Tareas</string>
     <string name="tab_text_4">Notas</string>
+    <string name="addTask">Agrega una nueva tarea</string>
+    <string name="taskHint">Sacar la basura               </string>
+    <string name="addDate">Fecha</string>
+    <string name="subdivide">Subdividir tarea</string>
+    <string name="time">¿Cuánto tiempo le piensas dedicar?</string>
+    <string name="taskOk">Listo</string>
 </resources>
