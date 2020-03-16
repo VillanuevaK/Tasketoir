@@ -20,7 +20,7 @@
             android:layout_weight="1"
             android:includeFontPadding="false"
             android:text="@string/addTask"
-            android:textSize="20dip"></TextView>
+            android:textSize="20dip"/>
 
         <LinearLayout
             android:layout_width="wrap_content"

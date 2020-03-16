@@ -10,4 +10,27 @@
     <string name="subdivide">Subdividir tarea</string>
     <string name="time">¿Cuánto tiempo le piensas dedicar?</string>
     <string name="taskOk">Listo</string>
+
+    <string name="config">Configuración</string>
+
+<!--    dias de la semana-->
+    <string name="l">Lunes</string>
+    <string name="k">Martes</string>
+    <string name="m">Miércoles</string>
+    <string name="j">Jueves</string>
+    <string name="v">Viernes</string>
+    <string name="s">Sábado</string>
+    <string name="d">Domingo</string>
+    <string name="txtl">Tiempo libre para los lunes</string>
+    <string name="txtk">Tiempo libre para los  martes</string>
+    <string name="txtm">Tiempo libre para los miércoles</string>
+    <string name="txtj">Tiempo libre para los jueves</string>
+    <string name="txtv">Tiempo libre para los viernes</string>
+    <string name="txts">Tiempo libre para los sábados</string>
+    <string name="txtd">Tiempo libre para los domingos</string>
+
+    <string name="action_settings">Configuración</string>
+    <string name="action_about">Acerca de</string>
+
+
 </resources>

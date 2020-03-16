@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory
+        android:title="My Preference Category">
+
+    <EditTextPreference
+        android:key="timeMonday"
+        android:title="@string/l"
+        android:summary="@string/txtl"
+        android:defaultValue="60"
+        />
+
+    <EditTextPreference
+        android:key="timeTuesday"
+        android:title="@string/k"
+        android:summary="@string/txtk"
+        android:defaultValue="60"
+        />
+
+
+        <EditTextPreference
+            android:key="timeWednesday"
+            android:title="@string/m"
+            android:summary="@string/txtm"
+            android:defaultValue="60"
+            />
+
+        <EditTextPreference
+            android:key="timeThursday"
+            android:title="@string/j"
+            android:summary="@string/txtj"
+            android:defaultValue="60"
+            />
+
+        <EditTextPreference
+            android:key="timeFriday"
+            android:title="@string/v"
+            android:summary="@string/txtv"
+            android:defaultValue="60"
+            />
+
+        <EditTextPreference
+            android:key="timeSaturday"
+            android:title="@string/s"
+            android:summary="@string/txts"
+            android:defaultValue="60"
+            />
+
+        <EditTextPreference
+            android:key="timeSunday"
+            android:title="@string/d"
+            android:summary="@string/txtd"
+            android:defaultValue="60"
+            />
+
+    </PreferenceCategory>
+    </PreferenceScreen>

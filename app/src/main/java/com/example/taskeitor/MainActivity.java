@@ -29,6 +29,7 @@ public class MainActivity extends AppCompatActivity {
         tabs.setupWithViewPager(viewPager);
         FloatingActionButton fab = findViewById(R.id.fab);
 
+
 //        fab.setOnClickListener(new View.OnClickListener() {
 //            @Override
 //            public void onClick(View view) {
@@ -46,10 +47,20 @@ public class MainActivity extends AppCompatActivity {
 
     }
 
+    @Override
+    public boolean onCreateOptionsMenu(Menu menu) {
+        // Se recrea el menu que aparece en ActionBar de la actividad.
+        getMenuInflater().inflate(R.menu.opciones, menu);
+        return true;
+    }
+
     public void openAddActivity(){
         Intent addingActivity = new Intent(this, addTask.class);
+//        Intent addingActivity = new Intent(this, settings.class);
         startActivity(addingActivity);
 
 
     }
+
+
 }
